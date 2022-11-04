@@ -10,6 +10,7 @@ import { Roadmap } from './components/section/roadmap';
 import { Galaxy } from './components/galaxy/galaxy';
 import MyText from './components/x/Text';
 import { Html } from '@react-three/drei';
+import EarthVideo from './components/video/earth.mp4';
 
 function Dolly() {
   // This one makes the camera move in and out
@@ -64,6 +65,17 @@ function App() {
 
   return (
     <div className='screen'>
+      <video autoPlay loop muted style={{
+        position:'absolute', 
+        width:'100%',
+        left: '50%',
+        top: '50%',
+        height: '100%',
+        objectFit:'cover',
+        transform: 'translate(-50%, -50%)',
+        zIndex: "1"}}>
+        <source src={EarthVideo} type='video/mp4' />
+      </video>
       <div className='main'>
           <Header />
           <Landing />
