@@ -30,7 +30,7 @@ export function Wormhole(props){
         <pointLight color="#f6f3ea" position={[1000, 20, 200]} intensity={5} />
         <Stars ref={starRef} radius={300} depth={10} count={10000} factor={9} saturation={5} fade={true} />
         <mesh ref={cloudsRef} position={[0, 0, 0]} >
-            <sphereGeometry args={[151, 32, 32]} />
+            <sphereGeometry args={[101, 32, 32]} />
             <meshPhongMaterial
             map={cloudMap}
             opacity={0.5}
@@ -39,7 +39,7 @@ export function Wormhole(props){
             />
         </mesh>
         <mesh ref={planetRef} position={[0, 0, -50]}>
-            <sphereGeometry args={[150, 32, 32]} />
+            <sphereGeometry args={[100, 32, 32]} />
             <meshStandardMaterial map={planetMap} metalness={0.98} roughnes={0.25} />
         </mesh>
     </>

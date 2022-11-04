@@ -103,33 +103,97 @@ export function Token() {
                     </div>
                   </div>
                   <p className='bottom-space-sm' />
-                  <div className='token__container'>
-                    <div className='info__container-card'>
-                      <div className='info__container-cardInfo'>
-                      <h1>1%</h1>
-                        <h2 style={{marginTop:'-25px'}}>REWARDS</h2>
-                        <p style={{textAlign:'center'}} >1% of every transaction is taken and auto redistributed to all holders. 
-                          Hold $X tokens, and keep earning $BNB forever!
-                          </p>
-                      </div>
-                    </div>
-                    <div className='info__container-card'>
-                      <div className='info__container-cardInfo'>
-                      <h1>2%</h1>
-                        <h2 style={{marginTop:'-25px'}}>POOL</h2>
-                        <p style={{textAlign:'center'}}>2% of every transaction is allocated to maintaining a stable liquidity pool
-                          keeping your investments sustainable.</p>
-                      </div>
-                    </div>
-                    <div className='info__container-card'>
-                      <div className='info__container-cardInfo'>
-                        <h1>1%</h1>
-                        <h2 style={{marginTop:'-25px'}}>INVEST</h2>
-                        <p style={{textAlign:'center'}} >1% of every transaction is allocated to Development.  
-                          This allows us to fuel our most ambitious projects in service of further rewarding our community.</p>
-                      </div>
-                    </div>
-                    </div>
+                  <div className='row'>
+                  <div className="tree">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
+                          X
+                          <br /> Tokenomic
+                          <br /> Tax
+                          </h3>
+                        </a>
+                        <ul>
+                          <li>
+                            <a href="#">
+                              <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
+                              1% 
+                              <br />Reflection
+                              </h3>
+                            </a>  
+                            <ul>
+
+                              <li>
+                              <a href="#">
+                                <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
+                                auto redistributed to 
+                                <br /> $x-coin holders.
+                                </h3>
+                              </a>  
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
+                              1% 
+                              <br />Pool
+                              </h3>
+                            </a>  
+                            <ul>
+                              <li>
+                                <a href="#">
+                                  <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
+                                  Pancakeswap
+                                  <br /> Liquidity
+                                  </h3>
+                                </a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
+                              1% 
+                              <br />Marketing
+                              </h3>
+                            </a>  
+                            <ul>
+                              <li>
+                                <a href="#">
+                                  <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
+                                  Service of further 
+                                  <br />rewarding our community.
+                                  </h3>
+                                </a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="#">
+                              <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
+                              1% 
+                              <br />Burn
+                              </h3>
+                            </a>  
+                            <ul>
+                              <li>
+                                <a href="#">
+                                  <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
+                                  Supply 
+                                  <br />Deflation
+                                  </h3>
+                                </a>
+                              </li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                
                     <p className='bottom-space-sm' />
                     <div className='token__container'>
                       <div className='info__banner-card'>
@@ -141,14 +205,10 @@ export function Token() {
                     </div>
                   <div className='bottom-space-md' />
                 <div className="token__container" style={{flexFlow: 'column', width: '80vw', marginTop:'-10px'}}>
-                <div className='row' style={{flexFlow:'column'}}>
-                    <h3 style={{fontSize: '15px', textAlign: 'center'}}>Lower buy tax attracts buy pressure & Higher sell tax encourages hodl.
-                    <br/>Less buy tax ≫ Lesser Slippage ≫ Higher Volume ≫ More Holder ≫ Higher Price
-                    </h3>
-                    </div>
+    
                   </div>
                   <div className='bottom-space-md' />
-                  <img src='images/web/comet.png' alt='' width="100px"  />
+                  <img src='images/web/x.png' alt='' width="100px"  />
 
                   <div className='row'>
                       <h3 style={{fontSize: '17px', margin: '0px 0px -35px 0px', opacity:1}}>TOTAL SUPPLY</h3>
@@ -184,88 +244,14 @@ export function Token() {
                     </h2>
                   </div>
                   <div className='bottom-space-sm' />
-                <div className='row'>
-                  <div className="tree">
-                    <ul>
-                      <li>
-                        <a href="#">
-                          <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
-                          X
-                          <br /> Tokenomic
-                          <br /> Tax
-                          </h3>
-                        </a>
-                        <ul>
-                          <li>
-                            <a href="#">
-                              <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
-                              1% 
-                              <br />Reflection
-                              </h3>
-                            </a>  
-                            <ul>
-
-                              <li>
-                              <a href="#">
-                                <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
-                                  X 
-                                  <br />Holders
-                                </h3>
-                              </a>  
-                              </li>
-                            </ul>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
-                              2% 
-                              <br />Pool
-                              </h3>
-                            </a>  
-                            <ul>
-                              <li>
-                                <a href="#">
-                                  <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
-                                  Pancakeswap
-                                  <br /> Liquidity
-                                  </h3>
-                                </a>
-                              </li>
-                            </ul>
-                          </li>
-                          <li>
-                            <a href="#">
-                              <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
-                              1% 
-                              <br />Investments
-                              </h3>
-                            </a>  
-                            <ul>
-                              <li>
-                                <a href="#">
-                                  <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
-                                  1% 
-                                  <br />Development
-                                  <br />Fund
-                                  </h3>
-                                </a>
-                              </li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <p className="bottom-space-sm" />
+                
 
                     <div className='row' style={{flexFlow:'column'}}>
                       <h2 style={{fontSize: '25px', fontWeight: '500', textAlign: 'center', letterSpacing:'8px'}}>
                       WHY CHOOSE X
                         </h2>
                         <h2 style={{fontSize: '12px', fontWeight: '100', textAlign: 'center', marginTop:'-10px'}}>
-                        ✰ WE'RE PROGRAMMED TO HIT $1 ✰
-                        <br />HERE'S HOW WE SHINE A BRIGHTER FUTURE
+                        ✰HERE'S HOW WE SHINE A BRIGHTER FUTURE✰
                         </h2>
                     </div>
                     <div className="token__container">
@@ -273,10 +259,6 @@ export function Token() {
                       <h2 style={{display: 'flex',fontSize: '14px', textAlign: 'justify'}}>
                       Dividends: 5% of every buy/sell is taken and redistributed to our holders. Hold $X tokens and earn BNB forever. 
                       A Minimum of 200,000 tokens is required in order to receive rewards.
-                      <br /><br />
-                      Buy Back / Marketing Wallet: 
-                      In the time when our token price drops our team will use the buyback wallet in addition to manual burns to raise and maintain the currency on an upward trend  
-                      When is no need for buyback, the funds are being used for marketing.
                       <br /><br />
                       Auto Pay: You don’t need to claim your earned BNB. 
                       It’s automatically sent to your wallet. 

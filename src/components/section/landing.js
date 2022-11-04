@@ -7,11 +7,10 @@ export function Landing() {
 
   return (
     <div className="container">
-      <p className="bottom-space" style={{marginBottom:'200px'}} />
+      <p className="bottom-space" style={{marginBottom:'400px'}} />
       <div className='row' style={{flexFlow:'column'}}>
                       <h2 style={{fontSize: '30px', fontWeight: '100', textAlign: 'center', fontFamily:'Montserrat', letterSpacing:'10px'}}>
-                            WHEN YOU <i>REALLY</i> <b>WANT</b> SOMETHING
-                        </h2>
+                            WHEN YOU <i>REALLY</i> <b>FOCUS</b>                         </h2>
                         <h2 style={{fontSize: '20px', fontWeight: '100', textAlign: 'center', fontFamily:'Montserrat', letterSpacing:'8px'}}>
                             ALL THE <b>UNIVERSE</b> UNITES
                         </h2>
