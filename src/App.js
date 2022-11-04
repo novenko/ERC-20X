@@ -65,7 +65,11 @@ function App() {
 
   return (
     <div className='screen'>
-      <video autoPlay loop muted style={{
+      
+      <div className='main'>
+
+          <Header />
+          <video autoPlay loop muted style={{
         position:'absolute', 
         width:'100%',
         left: '50%',
@@ -76,8 +80,6 @@ function App() {
         zIndex: "1"}}>
         <source src={EarthVideo} type='video/mp4' />
       </video>
-      <div className='main'>
-          <Header />
           <Landing />
           <Token />
           <Roadmap />
