@@ -30,7 +30,7 @@ export function Footer() {
     </div>
     <div className='row'>
         <div className='col'>
-            <p style={{display: 'flex',fontSize: '14px', textAlign: 'center'}}> © X Club & Cosmosapiens. All Rights Reserved.</p>
+            <p style={{display: 'flex',fontSize: '14px', textAlign: 'center'}}> © X Club. All Rights Reserved.</p>
         </div>
     </div>
     <p className='bottom-space-md' />

@@ -6,7 +6,7 @@ const parameters = {}
 
 parameters.count = 18000
 parameters.size = 0.0025
-parameters.radius = 600
+parameters.radius = 800
 parameters.branches = 3
 parameters.spin = 0.3
 parameters.randomness = 0.5

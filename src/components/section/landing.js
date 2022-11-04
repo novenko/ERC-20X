@@ -10,13 +10,13 @@ export function Landing() {
       <p className="bottom-space" style={{marginBottom:'200px'}} />
       <div className='row' style={{flexFlow:'column'}}>
                       <h2 style={{fontSize: '30px', fontWeight: '100', textAlign: 'center', fontFamily:'Montserrat', letterSpacing:'10px'}}>
-                            WHEN YOU <i>REALLY</i><b>WANT</b> SOMETHING
+                            WHEN YOU <i>REALLY</i> <b>WANT</b> SOMETHING
                         </h2>
                         <h2 style={{fontSize: '20px', fontWeight: '100', textAlign: 'center', fontFamily:'Montserrat', letterSpacing:'8px'}}>
                             ALL THE <b>UNIVERSE</b> UNITES
                         </h2>
                         <h2 style={{fontSize: '13px', fontWeight: '100', textAlign: 'center', fontFamily:'Montserrat', letterSpacing:'6px'}}>
-                            IN GUIDING YOU <b>ACHIVE</b> IT . . .
+                            IN GUIDING YOU <b>ACHIVE</b> IT
                         </h2>
                     </div>
         <p className='row'>

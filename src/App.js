@@ -14,8 +14,8 @@ import { Html } from '@react-three/drei';
 function Dolly() {
   // This one makes the camera move in and out
   useFrame(({ clock, camera }) => {
-    camera.position.z = 20 + Math.sin(clock.getElapsedTime()) * 2
-    camera.position.y = 30 + Math.sin(clock.getElapsedTime()) * 16
+    // camera.position.z = 200 + Math.sin(clock.getElapsedTime()) * 2
+    camera.position.y = 10 + Math.sin(clock.getElapsedTime()) * 1
     // camera.rotation.y = Math.sin(clock.getElapsedTime()) * 0.25
   })
   return null
@@ -74,11 +74,11 @@ function App() {
       <Footer />
       <div className='canvas darkBg'>
         
-          <Canvas colorManagement camera={{position:[0,10,250], fov: 70}} >
+          <Canvas colorManagement camera={{position:[0,60,400], fov: 100}} >
             <Suspense fallback={<Loading />}>
                 <HTMLContent />
                 <Wormhole />
-                {/* <Dolly /> */}
+                <Dolly />
                 <Galaxy />
                 <MyText />
             </Suspense>

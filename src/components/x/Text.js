@@ -10,7 +10,7 @@ function MyText() {
   const ref = useRef()
   
   const params =  {
-    size: 100,
+    size: 150,
     height: 25,
     bevelEnabled: true,
     bevelThickness: 0.5,
@@ -31,7 +31,7 @@ function MyText() {
 
   return (
     <>
-      <mesh ref={ref} position={[-295, -55, -100]} rotate={[0,-1,0]}>
+      <mesh ref={ref} position={[-450, 100, -50]}>
         <textGeometry args={['X-TOKEN', config]} />
         <meshNormalMaterial flatShading={true} wireframe={false} />
       </mesh>
