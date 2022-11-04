@@ -84,7 +84,7 @@ function App() {
           <Footer />
       </div>
       <Footer />
-      <div className='canvas darkBg'>
+      {/* <div className='canvas darkBg'>
         
           <Canvas colorManagement camera={{position:[0,3,400], fov: 100}} >
             <Suspense fallback={<Loading />}>
@@ -96,7 +96,7 @@ function App() {
             </Suspense>
           </Canvas>
         
-      </div>
+      </div> */}
     </div>
   );
 }
