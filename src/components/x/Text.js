@@ -54,7 +54,7 @@ function MyText() {
       </mesh>
       <mesh ref={ref2} position={[-50, -75, 150]}>
         <textGeometry args={['the everyXing coin', config2]} />
-        <meshStandardMaterial flatShading={false} wireframe={false} color={'black'} />
+        <meshStandardMaterial flatShading={false} wireframe={false} color={'grey'} />
       </mesh>
 
     </>
