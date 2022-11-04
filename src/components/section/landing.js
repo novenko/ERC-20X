@@ -7,20 +7,34 @@ export function Landing() {
 
   return (
     <div className="container">
-        
+      <p className="bottom-space" style={{marginBottom:'200px'}} />
+      <div className='row' style={{flexFlow:'column'}}>
+                      <h2 style={{fontSize: '30px', fontWeight: '100', textAlign: 'center', fontFamily:'Montserrat', letterSpacing:'10px'}}>
+                            WHEN YOU <b>WANT</b> SOMETHING
+                        </h2>
+                        <h2 style={{fontSize: '20px', fontWeight: '100', textAlign: 'center', fontFamily:'Montserrat', letterSpacing:'8px'}}>
+                            ALL THE <b>UNIVERSE</b> CONSPIRES
+                        </h2>
+                        <h2 style={{fontSize: '13px', fontWeight: '100', textAlign: 'center', fontFamily:'Montserrat', letterSpacing:'6px'}}>
+                            IN HELPING YOU <b>ACHIVE</b> IT . . .
+                        </h2>
+                    </div>
+        <p className='row'>
+        <p className="bottom-space-sm" />
+        <p style={{fontSize: '20px', margin: '10px 0px 0px 0px', opacity:1}}>↡</p>
+
+        </p>
+                    
         <p className="bottom-space" style={{marginBottom:'400px'}} />
         <p className="bottom-space-sm" />
             <div className="row">
                 <div className='col'>
                     <p className="bottom-space-md" />
                     <h3 style={{fontSize: '15px', textAlign: 'justify'}}>
-                      We are a movement. A club. A tribe. We are fixated on one goal… Don't work for money, let the money work for you.
-                      Join our community-governed platform focused on Staking, Lending, Governance, and Decentralized Launchpad services.
-                      The objective is to give financial control back to the people, so that as a collective, they may store and grow their wealth together. 
-                      $Cometa aims to leverage crowd wisdom to create a community-governed, transparent, and decentralized ecosystem for web 3.0.
-                      <br /> Started with the goal of building on Substrate as a Polkadot-first project, 
-                      $Cometa is now a multi-chain ecosystem offering services on Ethereum, Binance Smart Chain, and Polygon.
-                    </h3>
+                      A club. A tribe. We are fixated on one goal… Don't work for money, let the money work for you.
+                      Join our community-governed platform focused on giving the financial control back to the people, so that as a collective, they may store and grow their wealth together. 
+                      $X aims to leverage crowd wisdom to create a community-governed, transparent, and decentralized ecosystem for web 3.0.
+                      </h3>
                 </div>
                 <div className="col">
                   <div className='float-div'>
@@ -28,32 +42,7 @@ export function Landing() {
                   </div>
                 </div>
             </div>
-            <div className='row'>
-                      <div className='col'>
-                          <div className='btn'>
-                          <img src='images/web/telegram_icon.png' alt='' width="25px" className='icon' />
-                          &emsp;Telegram
-                          </div>
-                      </div>
-                      <div className='col'>
-                          <div className='btn'>
-                          <img src='images/web/discord_icon.png' alt='' width="23px" className='icon' />
-                          &emsp;DISCORD
-                          </div>
-                      </div>
-                      </div>
-        <div className='col'>
-          <h3 style={{fontSize: '18px', textAlign:'center'}}>Blockchain Agnostic For Multi-Chain Support</h3>
-            <p style={{fontSize: '15px', textAlign:'justify'}}>
-            To support its ecosystem of financial products, COSMOSAPIENS DAO runs its DeFi services on a number of different blockchains.
-            Started with the goal of building on Substrate as a Polkadot-first project, COSMOSAPIENS DAO now also offers its services on Binance Smart Chain
-            Polygon and  Ethereum. Moving forward, it will be available on HECO, Solana, RioChain, and more!</p>
-        </div>
-        <div className="col">
-            <div className='img-zoom'>
-              <img src="images/multichains.png" width="250px" alt="" style={{marginLeft:'0px'}} />
-            </div>
-        </div>
+
         <p className="bottom-space-sm" />
     </div>
   );

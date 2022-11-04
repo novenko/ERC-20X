@@ -1,6 +1,7 @@
 import React from 'react';
-import { OHM } from './OHM';
+import PieChart from './sub/dounuts';
 import { TokenBanners } from './sub/token_banners';
+import { TokenBanners2 } from './sub/token_banners2';
 
 export const data = {
   labels: ['PancakeSwap', 'Dev', 'Marketing', 'Advisors'],
@@ -38,14 +39,20 @@ export function Token() {
                         <div className="flux" style={{textAlign:'center'}}>THE </div>
                         <div className="neon" style={{textAlign:'center'}}>TOKEN </div>
                     </div>
-                    <a href={'/'}>
-                  <h3 style={{fontSize: '15px', margin: '25px 0px 0px 0px', opacity:1}}>0x1684324816534replace</h3>
-                </a>
-                </div>
-                
-                <div className="token__container" style={{flexFlow: 'row', width: '300px', marginTop:'-10px'}}>
+                    <p className='bottom-space-sm' />
+                    <div className='row' style={{display:'flex', flexFlow:'column', alignItems:'center'}}>
+                      
+                    <img src='images/web/bsc1.png'  width="125px" alt=''  />
+                    <a href={'https://bscscan.com/token/'}>
+                      <h3 style={{fontSize: '10px', margin: '5px 0px 0px 0px', opacity:1}}>0x9999999999999999999999999999999999999999999</h3>
+                    </a>
+                    <h3 style={{fontSize: '10px', margin: '5px 0px 0px 0px', opacity:1}}>ERC20 standard</h3>
+                    </div>
+                  </div>
+                  <p className='bottom-space-md' />
+                <div className="token__container" style={{flexFlow: 'row', width: '300px', marginTop:'0px'}}>
                     <h2 style={{display: 'flex',fontSize: '20px', fontWeight: '900', textAlign: 'end'}}>
-                        TAX&emsp;
+                        $BNB&emsp;
                     </h2>
                     <hr width="3" size="50"/>
                     <h2 style={{fontSize: '35px',fontWeight: '100',textAlign: 'start'}}>
@@ -55,61 +62,71 @@ export function Token() {
                   <div className="token__container">
                     <div className='token__container-section'>
                       <h2 style={{display: 'flex',fontSize: '14px', textAlign: 'justify'}}>
-                        Cosmosapiens are on a mission: bring DeFi to the masses.  
+                        $X is on a trajectory to bring DeFi to the masses.  
                         Decentralized finance, which utilizes technologies to remove
                         intermediaries, middlemen, and banks from financial markets, 
                         are complicated systems to enter into.
 
-                        Cosmosapiens’s primary goal is to make it simple to 
+                        $X primary goal is to make it simple to 
                         start earning passive income without having to understand the backend of the DeFi world.
 
                         The first step towards achieving that goal was 
-                        to create the Cosmosapiens token.
+                        to create the X token.
                         <br />
-                        <br /> It is an innovative Reflection Token: 
-                        one that pays dividends in an already established token instead of our own. 
-                        Our dividends are paid out in $Cake, the premier BSC Swap on the market and 
-                        a company whose tokens are getting more valuable all the time.
-                        The next step is the release of our 3-click App.  
-
-                        The rate of Crypto adoption in the world is growing, 
-                        but the percentage of the world’s population who are users is still very small.
-
-                        We have developed an app that is clean, clear and simple to use. 
-                        It will revolutionize the DeFi space and foster adoption of crypto in a safe, secure, 
-                        easy and rewarding way.  
-
-                        Once the App is released, we will continue to add features to 
-                        further empower people and give them control over their financial situations.
                         </h2>
                     </div>
                   </div>
+                  <p className='bottom-space-sm' />
+                    <TokenBanners />
+                  <p className='bottom-space-sm' />
+
+                    <div className='row' style={{flexFlow:'column'}}>
+                      <h2 style={{fontSize: '25px', fontWeight: '900', textAlign: 'center'}}>
+                            THINGS YOU NEED TO KNOW
+                        </h2>
+                        <h2 style={{fontSize: '12px', fontWeight: '100', textAlign: 'center', marginTop:'-10px'}}>
+                            LIGHTPAPER
+                        </h2>
+                        <h2 style={{fontSize: '12px', fontWeight: '100', textAlign: 'center', marginTop:'5px'}}>
+                        ↡
+                        </h2>
+                    </div>
+                    <div className="token__container">
+                    <div className='token__container-section'>
+                      <h2 style={{display: 'flex',fontSize: '14px', textAlign: 'justify'}}>
+                      It is an innovative Reflection Token: 
+                        one that pays dividends in an already established token instead of our own. 
+                        Our dividends are paid out in $BNB, the premier BSC Swap on the market and 
+                        a company whose tokens are getting more valuable all the time.
+                        <br />
+                        </h2>
+                    </div>
+                  </div>
+                  <p className='bottom-space-sm' />
                   <div className='token__container'>
                     <div className='info__container-card'>
                       <div className='info__container-cardInfo'>
-                      <h1>3%</h1>
-                        <h2 style={{marginTop:'-25px'}}>Rewards</h2>
-                        <p style={{textAlign:'center'}} >3% of every buy/sell is taken and auto redistributed to all holders. 
-                          Hold $Cosmosapiens tokens, earn BNB. 
-                          A Minimum of 200,000 tokens is required in order to receive rewards.</p>
+                      <h1>1%</h1>
+                        <h2 style={{marginTop:'-25px'}}>REWARDS</h2>
+                        <p style={{textAlign:'center'}} >1% of every transaction is taken and auto redistributed to all holders. 
+                          Hold $X tokens, and keep earning $BNB forever!
+                          </p>
                       </div>
                     </div>
                     <div className='info__container-card'>
                       <div className='info__container-cardInfo'>
-                      <h1>3%</h1>
-                        <h2 style={{marginTop:'-25px'}}>Pool</h2>
-                        <p style={{textAlign:'center'}} >Pool tax is split into two portions:
-                        <br />2% of every transaction is allocated to maintaining a stable liquidity pool
-                          keeping your investments sustainable.
-                          <br /> 1% of every transaction is allocated to Cosmosapiens OHM Treasury.</p>
+                      <h1>2%</h1>
+                        <h2 style={{marginTop:'-25px'}}>POOL</h2>
+                        <p style={{textAlign:'center'}}>2% of every transaction is allocated to maintaining a stable liquidity pool
+                          keeping your investments sustainable.</p>
                       </div>
                     </div>
                     <div className='info__container-card'>
                       <div className='info__container-cardInfo'>
-                        <h1>4%</h1>
-                        <h2 style={{marginTop:'-25px'}}>Marketing</h2>
-                        <p style={{textAlign:'center'}} >4% of every transaction is allocated to Marketing and Development in BNB (swapped to BNB in real-time to avoid dumps).  
-                          This allows us to fuel our most ambitious projects in service of further rewarding our community, team doesn't sell tokens to fund the project</p>
+                        <h1>1%</h1>
+                        <h2 style={{marginTop:'-25px'}}>INVEST</h2>
+                        <p style={{textAlign:'center'}} >1% of every transaction is allocated to Development.  
+                          This allows us to fuel our most ambitious projects in service of further rewarding our community.</p>
                       </div>
                     </div>
                     </div>
@@ -118,40 +135,62 @@ export function Token() {
                       <div className='info__banner-card'>
                         <div className='info__banner-cardInfo'>
                         <h2>Sell Fee</h2>
-                          <p style={{textAlign:'center', margin:'-10px 0 10px 0'}} >An extra 5% fee is applied to all sells at launch of $COMETA Token 
-                          and deacreased by 1% each month until droped and set at 1%.
-                          This will allow us to reduce swing-trading and break whales’ control.</p>
+                          <p style={{textAlign:'center', margin:'-10px 0 10px 0', padding:'15px'}} >An extra 4% fee is applied to all sells. This will allow us to reduce swing-trading and break whales’ control.</p>
                         </div>
                       </div>
                     </div>
-                    <p className='bottom-space-sm' />
-                    <TokenBanners />
-                <p className="bottom-space-sm" />
-                <div className='row'>
-                    <div className='col'>
-                        <div className='btn'>
-                        Purchase token
-                        </div>
-                    </div>
-                    <div className='col'>
-                        <div className='btn'>
-                        JOIN OUR DISCORD
-                        </div>
+                  <div className='bottom-space-md' />
+                <div className="token__container" style={{flexFlow: 'column', width: '80vw', marginTop:'-10px'}}>
+                <div className='row' style={{flexFlow:'column'}}>
+                    <h3 style={{fontSize: '15px', textAlign: 'center'}}>Lower buy tax attracts buy pressure & Higher sell tax encourages hodl.
+                    <br/>Less buy tax ≫ Lesser Slippage ≫ Higher Volume ≫ More Holder ≫ Higher Price
+                    </h3>
                     </div>
                   </div>
                   <div className='bottom-space-md' />
-                <div className="token__container" style={{flexFlow: 'row', width: '300px', marginTop:'-10px'}}>
-                    <h2 style={{display: 'flex',fontSize: '20px', fontWeight: '900', textAlign: 'end'}}>
-                        THINGS YOU NEED TO KNOW
+                  <img src='images/web/comet.png' alt='' width="100px"  />
+
+                  <div className='row'>
+                      <h3 style={{fontSize: '17px', margin: '0px 0px -35px 0px', opacity:1}}>TOTAL SUPPLY</h3>
+                  </div>
+                  
+                  <div className="row" style={{flexFlow: 'row', alignItems:'center'}}>
+                    <h2 style={{display: 'flex',fontSize: '40px', fontWeight: '800', textAlign: 'center'}}>
+                    1&emsp;
+                    </h2>
+                    <hr width="3" size="50"/>
+                    <h2 style={{fontSize: '45px',fontWeight: '500',textAlign: 'center'}}>
+                            &emsp;BILLION
                     </h2>
                   </div>
+                  <PieChart
+                          data={[{ key: "Burned: 51%", value: 51 }, 
+                          { key: "PancakeSwap: 48%", value: 48 },
+                          { key: "Investment Wallet: 2%", value: 2 }]}
+                          label="✩ TOKEN ALLOCATION ✩"
+                        />
+                  <div className='bottom-space-md' />
+
+                  <div className='row'>
+                      <h3 style={{fontSize: '17px', margin: '0px 0px 0px 0px', opacity:1}}>slippage ≥ 15%</h3>
+                  </div>
+                  <div className="row" style={{flexFlow: 'row', alignItems:'center'}}>
+                    <h2 style={{display: 'flex',fontSize: '23px', fontWeight: '400', textAlign: 'center'}}>
+                    20M max hodl&emsp;
+                    </h2>
+                    <hr width="3" size="50"/>
+                    <h2 style={{fontSize: '20px',fontWeight: '400',textAlign: 'center'}}>
+                            &emsp;500K max sell
+                    </h2>
+                  </div>
+                  <div className='bottom-space-sm' />
                 <div className='row'>
                   <div className="tree">
                     <ul>
                       <li>
                         <a href="#">
                           <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
-                          CoMETA
+                          X
                           <br /> Tokenomic
                           <br /> Tax
                           </h3>
@@ -160,16 +199,17 @@ export function Token() {
                           <li>
                             <a href="#">
                               <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
-                              3% 
+                              1% 
                               <br />Reflection
                               </h3>
                             </a>  
                             <ul>
+
                               <li>
                               <a href="#">
                                 <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
-                               $Cosmosapiens Token
-                                <br />Holders
+                                  X 
+                                  <br />Holders
                                 </h3>
                               </a>  
                               </li>
@@ -178,7 +218,7 @@ export function Token() {
                           <li>
                             <a href="#">
                               <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
-                              3% 
+                              2% 
                               <br />Pool
                               </h3>
                             </a>  
@@ -186,18 +226,8 @@ export function Token() {
                               <li>
                                 <a href="#">
                                   <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
-                                  2% 
-                                  <br />Pancakeswap
+                                  Pancakeswap
                                   <br /> Liquidity
-                                  </h3>
-                                </a>
-                              </li>
-                              <li>
-                                <a href="#">
-                                  <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
-                                  1% 
-                                  <br />OHM Protocol 
-                                  <br />Reserve
                                   </h3>
                                 </a>
                               </li>
@@ -206,26 +236,17 @@ export function Token() {
                           <li>
                             <a href="#">
                               <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
-                              3% 
-                              <br />Marketing
+                              1% 
+                              <br />Investments
                               </h3>
                             </a>  
                             <ul>
-                            <li>
-                                <a href="#">
-                                  <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
-                                  2% 
-                                  <br />Promotions
-                                  <br /> Marketing
-                                  </h3>
-                                </a>
-                              </li>
                               <li>
                                 <a href="#">
                                   <h3 style={{fontSize: '15px',fontWeight: '100',textAlign: 'center'}}>
                                   1% 
                                   <br />Development
-                                  <br />Reserve
+                                  <br />Fund
                                   </h3>
                                 </a>
                               </li>
@@ -235,14 +256,43 @@ export function Token() {
                       </li>
                     </ul>
                   </div>
-                </div>                
-                  <div className='bottom-space-xsm' />
-                  <h2 style={{display: 'flex',fontSize: '15px', textAlign: 'center'}}>
-                          1% of the COMETA Token 
-                          <br className='mobile-break' />tax goes into the 
-                          <br className='mobile-break' /> COMETA DeFi OHM Treasury. 
-                  </h2>
+                </div>
+                <p className="bottom-space-sm" />
+
+                    <div className='row' style={{flexFlow:'column'}}>
+                      <h2 style={{fontSize: '25px', fontWeight: '500', textAlign: 'center', letterSpacing:'8px'}}>
+                      WHY CHOOSE X
+                        </h2>
+                        <h2 style={{fontSize: '12px', fontWeight: '100', textAlign: 'center', marginTop:'-10px'}}>
+                        ✰ WE'RE PROGRAMMED TO HIT $1 ✰
+                        <br />HERE'S HOW WE SHINE A BRIGHTER FUTURE
+                        </h2>
+                    </div>
+                    <div className="token__container">
+                    <div className='token__container-section'>
+                      <h2 style={{display: 'flex',fontSize: '14px', textAlign: 'justify'}}>
+                      Dividends: 5% of every buy/sell is taken and redistributed to our holders. Hold $X tokens and earn BNB forever. 
+                      A Minimum of 200,000 tokens is required in order to receive rewards.
+                      <br /><br />
+                      Buy Back / Marketing Wallet: 
+                      In the time when our token price drops our team will use the buyback wallet in addition to manual burns to raise and maintain the currency on an upward trend  
+                      When is no need for buyback, the funds are being used for marketing.
+                      <br /><br />
+                      Auto Pay: You don’t need to claim your earned BNB. 
+                      It’s automatically sent to your wallet. 
+                      Note: in periods of lower volume this may take longer, but you always receive your BNB.
+                      <br /><br />
+                      Secured: The automatic liquidity system helps create a price floor (stability).
+                      Initial Liquidity Provided is locked with DXLock.
+                      The smart contract and it's forks being audited by TechRate, and currently onboarding for Certik Audit with 12 months of SkyNet. 
+                      Our expereinced crypto team and code cosmonauts will ensure the continuos growth of this project
+                        <br />
+                        </h2>
+                    </div>
+                  </div>
                   <div className='bottom-space-sm' />
+                  <TokenBanners2 />
+
               </div>
             </div>
           </div>

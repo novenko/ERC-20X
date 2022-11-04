@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import WormholeMap from '../../assets/textures/wormhole.jpg';
+import PlanetMap from '../../assets/textures/earth.jpg';
 import CloudsMap from '../../assets/textures/cloud.png';
 import { TextureLoader } from "three";
 import { useLoader, useFrame } from "@react-three/fiber";
@@ -8,9 +8,9 @@ import { Stars } from '@react-three/drei';
 
 export function Wormhole(props){
 
-    const [wormholeMap, cloudMap] = useLoader(TextureLoader, [WormholeMap, CloudsMap]);
+    const [planetMap, cloudMap] = useLoader(TextureLoader, [PlanetMap, CloudsMap]);
     
-    const wormholeRef = useRef();
+    const planetRef = useRef();
     const cloudsRef = useRef();
     const starRef = useRef();
 
@@ -18,20 +18,19 @@ export function Wormhole(props){
     useFrame(({ clock }) => {
         const elapsedTime = clock.getElapsedTime();
     
-        wormholeRef.current.rotation.y = elapsedTime / 2;
-        wormholeRef.current.rotation.z = elapsedTime / 10;
-        cloudsRef.current.rotation.y = elapsedTime / -2;
-        starRef.current.rotation.x = elapsedTime / -20;
+        planetRef.current.rotation.y = elapsedTime / 4;
+        cloudsRef.current.rotation.y = elapsedTime / -4;
+        starRef.current.rotation.y = elapsedTime / 30;
 
       });
 
     return (
     <>
-        <ambientLight intensity={0.3} />
-        <pointLight color="#f6f3ea" position={[10, 0, 10]} intensity={5} />
-        <Stars ref={starRef} radius={300} depth={60} count={20000} factor={7} saturation={0} fade={true} />
+        <ambientLight intensity={0.9} />
+        <pointLight color="#f6f3ea" position={[70, 10, 50]} intensity={5} />
+        <Stars ref={starRef} radius={300} depth={10} count={10000} factor={9} saturation={5} fade={true} />
         <mesh ref={cloudsRef} position={[0, 0, 0]} >
-            <sphereGeometry args={[2.25, 32, 32]} />
+            <sphereGeometry args={[44, 32, 32]} />
             <meshPhongMaterial
             map={cloudMap}
             opacity={1}
@@ -39,9 +38,9 @@ export function Wormhole(props){
             transparent={true}
             />
         </mesh>
-        <mesh ref={wormholeRef} position={[0, 0, 0]}>
-            <sphereGeometry args={[1.8, 32, 32]} />
-            <meshStandardMaterial map={wormholeMap} metalness={0.98} roughnes={0.25} />
+        <mesh ref={planetRef} position={[0, 0, 0]}>
+            <sphereGeometry args={[43, 32, 32]} />
+            <meshStandardMaterial map={planetMap} metalness={0.98} roughnes={0.25} />
         </mesh>
     </>
     );

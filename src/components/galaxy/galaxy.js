@@ -1,21 +1,17 @@
 import React, { useMemo, useRef, useCallback } from "react"
-import WormholeMap from '../../assets/textures/wormhole.jpg';
-import CloudsMap from '../../assets/textures/cloud.png';
-import { TextureLoader } from "three";
-import { useLoader, useFrame } from "@react-three/fiber";
-import { OrbitControls, Stars } from '@react-three/drei';
+import { useFrame } from "@react-three/fiber";
 import * as THREE from "three";
 
 const parameters = {}
 
-parameters.count = 8000
+parameters.count = 18000
 parameters.size = 0.0025
 parameters.radius = 600
 parameters.branches = 3
 parameters.spin = 0.3
 parameters.randomness = 0.5
 parameters.randomnessPower = 5
-parameters.stars = 4000
+parameters.stars = 1000
 parameters.starColor = '#1b3984'
 parameters.insideColor = '#ff6030'
 parameters.outsideColor = '#1b3984'
@@ -62,7 +58,7 @@ export function Galaxy(props){
         const elapsedTime = clock.getElapsedTime();
     
         
-        galaxyRef.current.rotation.y = elapsedTime / -1;
+        galaxyRef.current.rotation.y = elapsedTime / -30;
       });
 
     return (

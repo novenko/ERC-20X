@@ -3,21 +3,19 @@ import { Canvas, Dom, useFrame, useThree } from 'react-three-fiber';
 import React, { Suspense, useEffect, useState } from "react";
 import { Wormhole } from "./components/wormhole/wormhole";
 import { Header } from './components/section/header';
-import { Cosmosapiens } from './components/NFT/cosmosapiens';
 import { Token } from './components/section/token';
 import { Footer } from './components/section/footer';
 import { Landing } from './components/section/landing';
 import { Roadmap } from './components/section/roadmap';
-import { Partners } from './components/section/sub/partners';
-import { PODs } from './components/section/PODs';
 import { Galaxy } from './components/galaxy/galaxy';
+import MyText from './components/x/Text';
 import { Html } from '@react-three/drei';
 
 function Dolly() {
   // This one makes the camera move in and out
   useFrame(({ clock, camera }) => {
-    // camera.position.z = 7 + Math.sin(clock.getElapsedTime()) * 2
-    // camera.position.y = 2 + Math.sin(clock.getElapsedTime()) * 2
+    camera.position.z = 20 + Math.sin(clock.getElapsedTime()) * 2
+    camera.position.y = 30 + Math.sin(clock.getElapsedTime()) * 16
     // camera.rotation.y = Math.sin(clock.getElapsedTime()) * 0.25
   })
   return null
@@ -30,9 +28,6 @@ const HTMLContent = () => {
           </mesh>
           <Html center>
             <div className='drei-container'>
-              <h3>
-                .
-              </h3>
             </div>
           </Html>
         </group>
@@ -73,20 +68,19 @@ function App() {
           <Header />
           <Landing />
           <Token />
-          <Cosmosapiens />
-          <PODs />
           <Roadmap />
           <Footer />
       </div>
       <Footer />
       <div className='canvas darkBg'>
         
-          <Canvas colorManagement camera={{position:[0,25,40], fov: 100}} >
+          <Canvas colorManagement camera={{position:[0,10,250], fov: 70}} >
             <Suspense fallback={<Loading />}>
                 <HTMLContent />
                 <Wormhole />
-                <Dolly />
+                {/* <Dolly /> */}
                 <Galaxy />
+                <MyText />
             </Suspense>
           </Canvas>
         
