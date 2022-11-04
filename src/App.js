@@ -10,7 +10,7 @@ import { Roadmap } from './components/section/roadmap';
 import { Galaxy } from './components/galaxy/galaxy';
 import MyText from './components/x/Text';
 import { Html } from '@react-three/drei';
-import BackgroundVideo from './assets/xcoin.mp4';
+import BackgroundVideo from './assets/retro.mp4';
 
 function Dolly() {
   // This one makes the camera move in and out
