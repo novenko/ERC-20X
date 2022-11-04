@@ -65,25 +65,25 @@ function App() {
 
   return (
     <div className='screen'>
-      
+      <video autoPlay loop muted style={{
+            position:'absolute', 
+            width:'100%',
+            left: '50%',
+            top: '50%',
+            height: '100%',
+            objectFit:'cover',
+            transform: 'translate(-50%, -50%)',
+            zIndex: "1"}}>
+            <source src={EarthVideo} type='video/mp4' />
+          </video>
       <div className='main'>
 
           <Header />
-          <video autoPlay loop muted style={{
-        position:'absolute', 
-        width:'100%',
-        left: '50%',
-        top: '50%',
-        height: '100%',
-        objectFit:'cover',
-        transform: 'translate(-50%, -50%)',
-        zIndex: "1"}}>
-        <source src={EarthVideo} type='video/mp4' />
-      </video>
           <Landing />
           <Token />
           <Roadmap />
           <Footer />
+          
       </div>
       <Footer />
       {/* <div className='canvas darkBg'>
