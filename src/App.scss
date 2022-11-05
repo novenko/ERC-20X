@@ -277,6 +277,8 @@ li:hover ~ li p {
 }
 .darkBg {
   background: radial-gradient(ellipse at bottom, #000000 00%,#000000 100%);
+  // background-image: url(./assets/textures/blackspace.jpg);
+  // background-position: cover;
   height: 100vh;
   overflow: hidden;
 }
