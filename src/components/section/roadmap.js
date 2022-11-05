@@ -8,6 +8,10 @@ export function Roadmap() {
   return (
       <div className='container'>
         <p className="bottom-space-sm" />
+        <div className='token__section'>
+            <div className='token__wrapper'>
+              <div className="token__container-card">
+        <p className="bottom-space-sm" />
         <div className='col' style={{border: '1px'}}>
           <h3 className="neon" style={{fontSize: '25px', fontFamily: 'neon', marginBottom: '-50px'}}>
                           THE ROADMAP
@@ -80,6 +84,9 @@ export function Roadmap() {
               More importantly we want to be make significant contributions toward moving humanity forward. Hholders will be considered part of the Cosmosapiens POD and have access to exclusive 
               airdrops, prizes, raffles, and future collections. </p>
             </div>
+          </div>
+          </div>
+          </div>
           </div>
       </div>
   );

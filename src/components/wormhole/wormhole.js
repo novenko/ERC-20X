@@ -27,8 +27,8 @@ export function Wormhole(props){
     return (
     <>
         <ambientLight intensity={0.9} />
-        <pointLight color="#f6f3ea" position={[1000, 20, 200]} intensity={5} />
-        <Stars ref={starRef} radius={300} depth={10} count={10000} factor={9} saturation={5} fade={true} />
+        <pointLight color="#f6f3ea" position={[1000, 20, 600]} intensity={5} />
+        <Stars ref={starRef} radius={300} depth={5} count={1000} factor={9} saturation={2} fade={true} />
         <mesh ref={cloudsRef} position={[0, 0, 0]} >
             <sphereGeometry args={[101, 32, 32]} />
             <meshPhongMaterial

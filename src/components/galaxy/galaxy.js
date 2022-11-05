@@ -4,15 +4,15 @@ import * as THREE from "three";
 
 const parameters = {}
 
-parameters.count = 18000
-parameters.size = 0.0025
+parameters.count = 200
+parameters.size = 0.025
 parameters.radius = 800
-parameters.branches = 3
-parameters.spin = 0.3
+parameters.branches = 2
+parameters.spin = 2
 parameters.randomness = 0.5
 parameters.randomnessPower = 5
 parameters.stars = 1000
-parameters.starColor = '#1b3984'
+parameters.starColor = '#c6c7bda2'
 parameters.insideColor = '#ff6030'
 parameters.outsideColor = '#1b3984'
 

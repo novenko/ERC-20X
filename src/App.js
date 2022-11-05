@@ -74,7 +74,7 @@ function App() {
       <Footer />
       <div className='canvas darkBg'>
         
-          <Canvas colorManagement camera={{position:[0,3,400], fov: 100}} >
+          <Canvas colorManagement camera={{position:[0,-10,400], fov: 110}} >
             <Suspense fallback={<Loading />}>
                 <HTMLContent />
                 <Wormhole />
