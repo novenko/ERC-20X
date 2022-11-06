@@ -35,72 +35,56 @@ export function Token() {
             <div className='token__wrapper'>
               <div className="token__container-card">
                 <div className="token__container-cardInfo" style={{height:'200px'}}>
-                    <div className='row' style={{display:'flex', flexFlow:'column'}}>
-                        <div className="flux" style={{textAlign:'center'}}>THE </div>
-                        <div className="neon" style={{textAlign:'center'}}>TOKEN </div>
+                <div className='row' style={{flexFlow:'column'}}>
+					<h2 style={{fontSize: '35px', fontWeight: '500', textAlign: 'center', letterSpacing: '0.25em', margin:'5px'}}>
+					LIGHTPAPER
+					</h2>
+					<h2 style={{fontSize: '12px', fontWeight: '100', textAlign: 'center', margin:'5px'}}>
+					↡
+					</h2>
+				</div>
+				<div className='row' style={{display:'flex', flexFlow:'column', alignItems:'center'}}>
+					<img src='images/web/bsc1.png'  width="125px" alt=''  />
+					<a href={'https://bscscan.com/token'}>
+						<h3 style={{fontSize: '10px', margin: '5px 0px 0px 0px', opacity:1}}>0xA00000000000000000000000</h3>
+					</a>
+				</div>
+                  </div>
+                
+                  <div className="token__container">
+                    <div className='token__container-section'>
+                    <div className='row' style={{flexFlow:'column'}}>
+                      <h2 style={{fontSize: '35px', fontWeight: '300', textAlign: 'center', fontFamily:'Montserrat', letterSpacing:'15px', lineHeight:'15px'}}>
+                            WHAT IS <i>X</i>-<b>COIN</b></h2>
                     </div>
-                    <p className='bottom-space-sm' />
-                    <div className='row' style={{display:'flex', flexFlow:'column', alignItems:'center'}}>
-                      
-                    <img src='images/web/bsc1.png'  width="125px" alt=''  />
-                    <a href={'https://bscscan.com/token/'}>
-                      <h3 style={{fontSize: '10px', margin: '5px 0px 0px 0px', opacity:1}}>0x9999999999999999999999999999999999999999999</h3>
-                    </a>
-                    <h3 style={{fontSize: '10px', margin: '5px 0px 0px 0px', opacity:1}}>ERC20 standard</h3>
+                    <div className='row' style={{flexFlow:'column'}}>
+                        <h3 style={{ textAlign: 'center', fontFamily:'Montserrat', fontSize: '20px'}}>
+                      The best of Elon (🐦TWITTER + 🐶DOGE + 🚀SPACEX + 🔥MEMES) Meme Token. 
+                      <br />A decentralised community with instant holder rewards.
+                      <br />🔥 NFTs Dropping 1st week of Launch 🔥
+                      <br />✅ dAPPS listing in 2 week of launch ✅
+                      <br />🚀 CEX listing in 3 week of launch 🚀
+                        <br />
+                        </h3>
+                    </div>
                     </div>
                   </div>
-                  <p className='bottom-space-md' />
-                <div className="token__container" style={{flexFlow: 'row', width: '300px', marginTop:'0px'}}>
-                    <h2 style={{display: 'flex',fontSize: '20px', fontWeight: '900', textAlign: 'end'}}>
+                  <p className='bottom-space-sm' />
+                    <TokenBanners />
+                  <p className='bottom-space-sm' />
+                    <div className='row' style={{flexFlow:'column'}}>
+                      <h2 style={{fontSize: '25px', fontWeight: '900', textAlign: 'center'}}>
+                            THINGS YOU NEED TO KNOW
+                        </h2>
+                    </div>
+                    <div className="token__container" style={{flexFlow: 'row', width: '300px', marginTop:'0px'}}>
+                    <h2 style={{display: 'flex',fontSize: '30px', fontWeight: '900', textAlign: 'end'}}>
                         $BNB&emsp;
                     </h2>
                     <hr width="3" size="50"/>
                     <h2 style={{fontSize: '35px',fontWeight: '100',textAlign: 'start'}}>
                             &emsp;REWARDS
                     </h2>
-                  </div>
-                  <div className="token__container">
-                    <div className='token__container-section'>
-                      <h2 style={{display: 'flex',fontSize: '14px', textAlign: 'justify'}}>
-                        $X is on a trajectory to bring DeFi to the masses.  
-                        Decentralized finance, which utilizes technologies to remove
-                        intermediaries, middlemen, and banks from financial markets, 
-                        are complicated systems to enter into.
-
-                        $X primary goal is to make it simple to 
-                        start earning passive income without having to understand the backend of the DeFi world.
-
-                        The first step towards achieving that goal was 
-                        to create the X token.
-                        <br />
-                        </h2>
-                    </div>
-                  </div>
-                  <p className='bottom-space-sm' />
-                    <TokenBanners />
-                  <p className='bottom-space-sm' />
-
-                    <div className='row' style={{flexFlow:'column'}}>
-                      <h2 style={{fontSize: '25px', fontWeight: '900', textAlign: 'center'}}>
-                            THINGS YOU NEED TO KNOW
-                        </h2>
-                        <h2 style={{fontSize: '12px', fontWeight: '100', textAlign: 'center', marginTop:'-10px'}}>
-                            LIGHTPAPER
-                        </h2>
-                        <h2 style={{fontSize: '12px', fontWeight: '100', textAlign: 'center', marginTop:'5px'}}>
-                        ↡
-                        </h2>
-                    </div>
-                    <div className="token__container">
-                    <div className='token__container-section'>
-                      <h2 style={{display: 'flex',fontSize: '14px', textAlign: 'justify'}}>
-                      It is an innovative Reflection Token: 
-                        one that pays dividends in an already established token instead of our own. 
-                        Our dividends are paid out in $BNB, the premier BSC Swap on the market and 
-                        a company whose tokens are getting more valuable all the time.
-                        <br />
-                        </h2>
-                    </div>
                   </div>
                   <p className='bottom-space-sm' />
                   <div className='row'>
@@ -244,32 +228,18 @@ export function Token() {
                     </h2>
                   </div>
                   <div className='bottom-space-sm' />
-                
-
-                    <div className='row' style={{flexFlow:'column'}}>
-                      <h2 style={{fontSize: '25px', fontWeight: '500', textAlign: 'center', letterSpacing:'8px'}}>
-                      WHY CHOOSE X
-                        </h2>
-                        <h2 style={{fontSize: '12px', fontWeight: '100', textAlign: 'center', marginTop:'-10px'}}>
-                        ✰HERE'S HOW WE SHINE A BRIGHTER FUTURE✰
-                        </h2>
-                    </div>
+              
                     <div className="token__container">
                     <div className='token__container-section'>
-                      <h2 style={{display: 'flex',fontSize: '14px', textAlign: 'justify'}}>
-                      Dividends: 5% of every buy/sell is taken and redistributed to our holders. Hold $X tokens and earn BNB forever. 
-                      A Minimum of 200,000 tokens is required in order to receive rewards.
-                      <br /><br />
-                      Auto Pay: You don’t need to claim your earned BNB. 
-                      It’s automatically sent to your wallet. 
-                      Note: in periods of lower volume this may take longer, but you always receive your BNB.
-                      <br /><br />
-                      Secured: The automatic liquidity system helps create a price floor (stability).
-                      Initial Liquidity Provided is locked with DXLock.
-                      The smart contract and it's forks being audited by TechRate, and currently onboarding for Certik Audit with 12 months of SkyNet. 
-                      Our expereinced crypto team and code cosmonauts will ensure the continuos growth of this project
-                        <br />
-                        </h2>
+                      <h2 style={{fontSize: '14px', textAlign: 'center', fontFamily:'Montserrat'}}>
+                      Dividends:&emsp; 2% of every transaction is redistributed to our $X-COIN holders in&emsp;<i>$BNB</i>
+                      </h2>
+                      <h2 style={{fontSize: '14px', textAlign: 'center', fontFamily:'Montserrat'}}>
+                      Liquidity:&emsp; 2% of every transaction is put into $X-COIN liquidity (base price stability)
+                      </h2>
+                      <h2 style={{fontSize: '14px', textAlign: 'center', fontFamily:'Montserrat'}}>
+                      Secured:&emsp; Initial LP tokens burned. Contract renounced. No team-token allocation. Fair Launch.
+                      </h2>
                     </div>
                   </div>
                   <div className='bottom-space-sm' />

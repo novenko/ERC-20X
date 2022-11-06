@@ -23,7 +23,7 @@ function MyText() {
     flatShading: true,
   }
   const params2 =  {
-    size: 15,
+    size: 10,
     height: 1,
     bevelEnabled: true,
     bevelThickness: 0.04,
@@ -48,11 +48,11 @@ function MyText() {
 
   return (
     <>
-      <mesh ref={ref} position={[-125, -50, 150]}>
+      <mesh ref={ref} position={[-125, -75, 75]}>
         <textGeometry args={['X-COIN', config]} />
         <meshNormalMaterial flatShading={true} wireframe={false} />
       </mesh>
-      <mesh ref={ref2} position={[-50, -75, 150]}>
+      <mesh ref={ref2} position={[-10, -90, 100]}>
         <textGeometry args={['the everyXing coin', config2]} />
         <meshStandardMaterial flatShading={false} wireframe={false} color={'grey'} />
       </mesh>
