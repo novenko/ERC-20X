@@ -9,10 +9,10 @@ export function Landing() {
     <div className="container">
       <p className="bottom-space" style={{marginBottom:'400px'}} />
       <div className='row' style={{flexFlow:'column'}}>
-                      <h2 style={{fontSize: '35px', fontWeight: '300', textAlign: 'center', fontFamily:'Montserrat', letterSpacing:'15px'}}>
-                            THE BEST <i>OF</i><b> WEB 3.0</b></h2>
+                      <h2 style={{fontSize: '32px', fontWeight: '300', textAlign: 'center', fontFamily:'Montserrat', letterSpacing:'15px'}}>
+                            THE BEST <i>OF</i><b> WEB 3.0</b> IN</h2>
                         <h2 style={{fontSize: '25px', fontWeight: '100', textAlign: 'center', fontFamily:'Montserrat', letterSpacing:'10px'}}>
-                            IN <b>ONE</b> TOKEN
+                            <b>ONE</b> TOKEN
                         </h2>
                     </div>
         <div className='row'>

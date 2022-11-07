@@ -33,15 +33,14 @@ return (
          <div className="token__container">
             <div className='token__container-section'>
                <div className='row' style={{flexFlow:'column'}}>
-                  <h2 style={{fontSize: '35px', fontWeight: '300', textAlign: 'center', fontFamily:'Montserrat', letterSpacing:'15px', lineHeight:'15px'}}>
+                  <h2 style={{fontSize: '35px', fontWeight: '300', textAlign: 'center', fontFamily:'Montserrat', letterSpacing:'15px', lineHeight:'35px'}}>
                   WHAT IS <i>X</i>-<b>COIN</b></h2>
                </div>
                <div className='row' style={{flexFlow:'column'}}>
                   <h3 style={{ textAlign: 'center', fontFamily:'Montserrat', fontSize: '20px'}}>
-                  The best of Elon (🐦TWITTER + 🐶DOGE + 🚀SPACEX + 🔥MEMES) Meme Token. 
+                  The best of Elon - Meme Token.
+                  <br />(🐦TWITTER + 🐶DOGE + 🚀SPACEX + 🔥MEMES)  
                   <br />A decentralised community with instant holder rewards.
-                  <br />✅ dAPPS listing in 2 week of launch ✅
-                  <br />🚀 CEX listing in 3 week of launch 🚀
                   <br />
                   </h3>
                </div>
@@ -49,16 +48,16 @@ return (
          </div>
          <p className='bottom-space-sm' />
          <div className='row' style={{flexFlow:'column'}}>
-                  <h2 style={{fontSize: '35px', fontWeight: '300', textAlign: 'center', fontFamily:'Montserrat', letterSpacing:'15px', lineHeight:'15px'}}>
+                  <h2 style={{fontSize: '35px', fontWeight: '300', textAlign: 'center', fontFamily:'Montserrat', letterSpacing:'15px', lineHeight:'35px'}}>
                   HOW DID <i>X</i>-<b>COIN</b></h2>
                </div>
               <a href={'https://twitter.com/elonmusk/status/1577428272056389633'}>
-              <img src='images/tweet.PNG'  width="350px" alt=''  />
+              <img src='images/tweet.png'  width="350px" alt=''  />
               </a>
             <TokenBanners />
          <p className='bottom-space-sm' />
          <div className='row' style={{flexFlow:'column'}}>
-                  <h2 style={{fontSize: '35px', fontWeight: '300', textAlign: 'center', fontFamily:'Montserrat', letterSpacing:'15px', lineHeight:'15px'}}>
+                  <h2 style={{fontSize: '35px', fontWeight: '300', textAlign: 'center', fontFamily:'Montserrat', letterSpacing:'15px', lineHeight:'35px'}}>
                   <i>ROAD</i><b>MAP</b></h2>
                </div>
          <div style={{maxWidth: '1000px', minWidth:'300px', fontFamily:'Montserrat'}}>
@@ -83,14 +82,17 @@ return (
             Opensource donations to charities and fundations of community choosing.
             </p>
          </div>
-         <div className='roadmap'>
-            <p style={{ fontSize:'14px', textAlign:'start' , textAlign:'justify', paddingRight:'25px',fontFamily:'Montserrat'}}>
-            We value our community above all else and want all of you to be a big part of moving the project forward in the future.
-            Our aim is to be far more than just a Investment Token project, we are delivering purpose and value to our community long term.
-            More importantly we want to be make significant contributions toward moving humanity forward. Hholders will be considered part of the HUB and have access to exclusive 
-            airdrops, prizes, and future collections. </p>
-         </div>
+
       </div>
+      <div style={{maxWidth: '1000px', minWidth:'300px', fontFamily:'Montserrat'}}>
+      <p style={{ fontSize:'14px', textAlign:'start' , textAlign:'center', paddingRight:'25px',fontFamily:'Montserrat'}}>
+            We value our community above all else and want all of you to be a big part of moving the project forward in the future.
+            We are more than just a Investment Token project, we are delivering purpose and value to our community long term.
+            More importantly we want to be make significant contributions toward moving humanity forward. 
+            Holders will be considered part of the HUB and have access to exclusive 
+            airdrops, prizes and future collections. </p>
+      </div>
+      
          <div className='row' style={{flexFlow:'column'}}>
             <h2 style={{fontSize: '25px', fontWeight: '900', textAlign: 'center'}}>
             Want To Know more about us?

@@ -22,23 +22,15 @@ return (
    </div>
    <div className='row'>
       <div className='col'>
-         <p style={{display: 'flex',fontSize: '14px', textAlign: 'center'}}> © X Club. All Rights Reserved.</p>
+         <p style={{display: 'flex',fontSize: '14px', textAlign: 'center'}}> © X-COIN.NET All Rights Reserved.</p>
       </div>
    </div>
    <p className='bottom-space-md' />
    <div className="token__container">
       <div className='token__container-section'>
          <h2 style={{display: 'flex',fontSize: '10px', textAlign: 'center'}}>
-         Trading cryptocurrencies carries a high level of risk, and may not be suitable for all investors. 
-         Before deciding to trade cryptocurrency you should carefully consider your investment objectives, level of experience, and risk appetite.
-         The possibility exists that you could sustain a loss of some or all of your initial investment and therefore you should not invest
-         money that you cannot afford to lose. Any opinions, news, research, analyses, prices, or other information contained on this website 
-         is provided as general market commentary, and does not constitute investment advice. The X Club team and its affiliates will not 
-         accept liability for any loss or damage, including without limitation to, any loss of profit, which may arise directly or 
-         indirectly from use of or reliance on such information. All opinions expressed on this site are owned by the respective 
-         writer and should never be considered as advice in any form. The X Club team and its affiliates makes no representation or 
-         warranties as to the accuracy and or timelines of the information contained herein.
-         A qualified professional should be consulted before making any financial decisions.
+         Any opinions, news, research, analyses, prices, or other information contained on this website 
+         is provided as general market commentary, and does not constitute investment advice. 
          </h2>
       </div>
    </div>
