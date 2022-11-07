@@ -6,7 +6,6 @@ import { Header } from './components/section/header';
 import { Token } from './components/section/token';
 import { Footer } from './components/section/footer';
 import { Landing } from './components/section/landing';
-import { Roadmap } from './components/section/roadmap';
 import { Galaxy } from './components/galaxy/galaxy';
 import MyText from './components/x/Text';
 import { Html } from '@react-three/drei';
@@ -68,7 +67,6 @@ function App() {
           <Header />
           <Landing />
           <Token />
-          <Roadmap />
           <Footer />
       </div>
       <Footer />

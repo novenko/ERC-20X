@@ -6,14 +6,23 @@ export function TokenBanners() {
           <div className='row'>
                 <div to='' className='banner__wrapper'>
                   <div to='' className='banner__container'>
-                        <a href='https://pancakeswap.finance/swap?outputCurrency=' className="banner__container-card effect04">
-                        <img src='images/web/pancakeswap.png'  width="125px" alt=''  />
+                        <a href='https://pancakeswap.finance/8'  className="btn effect04">
+                        <h2 style={{fontSize: '12px', fontWeight: '100', textAlign: 'center', fontFamily:'Montserrat', letterSpacing: '0.5em'}}>
+                          BUY
+                          </h2>
                         </a>
-                        <a href='https://bscscan.com/token/' className="banner__container-card effect04">
-                          <img src='images/web/bsc.png'  width="125px" alt=''  />
+
+                        <a href='https://bscscan.com/token/'  className="btn effect04">
+                        <h2 style={{fontSize: '12px', fontWeight: '100', textAlign: 'center', fontFamily:'Montserrat', letterSpacing: '0.5em'}}>
+                          CONTRACT
+                          </h2>
                         </a>
-                        <a href='https://www.dextools.io/app/bsc/pair-explorer/' className="banner__container-card effect04">
-                        <img src='images/web/dext.png'  width="125px" alt=''  />
+
+
+                        <a href='https://www.dextools.io/app/bsc/pair-explorer/'  className="btn effect04">
+                        <h2 style={{fontSize: '12px', fontWeight: '100', textAlign: 'center', fontFamily:'Montserrat', letterSpacing: '0.5em'}}>
+                          CHART
+                          </h2>
                         </a>
                     </div>
                   </div>
