@@ -54,9 +54,6 @@ return (
               <a href={'https://twitter.com/elonmusk/status/1577428272056389633'}>
               <img src='images/web/tweet.png'  width="350px" alt=''  />
               </a>
-              <a href={'https://twitter.com/elonmusk/status/1391523807148527620'}>
-		<img src='images/web/tweet.jpg'  width="350px" alt=''  />
-		</a>
             <TokenBanners />
          <p className='bottom-space-sm' />
          <div className='row' style={{flexFlow:'column'}}>
