@@ -1,5 +1,5 @@
 import React from 'react';
-import PieChart from './sub/dounuts';
+import Tweet from '../../assets/textures/tweet.png'
 import { TokenBanners } from './sub/token_banners';
 export const data = {
 labels: ['PancakeSwap', 'Dev', 'Marketing', 'Advisors'],
@@ -37,7 +37,7 @@ return (
                   WHAT IS <i>X</i>-<b>COIN</b></h2>
                </div>
                <div className='row' style={{flexFlow:'column'}}>
-                  <h3 style={{ textAlign: 'center', fontFamily:'Montserrat', fontSize: '20px'}}>
+                  <h3 style={{ textAlign: 'center', fontFamily:'Montserrat', fontSize: '19px'}}>
                   The best of Elon - Meme Token.
                   <br />(🐦TWITTER + 🐶DOGE + 🚀SPACEX + 🔥MEMES)  
                   <br />A decentralised community with instant holder rewards.
@@ -52,8 +52,11 @@ return (
                   HOW DID <i>X</i>-<b>COIN</b></h2>
                </div>
               <a href={'https://twitter.com/elonmusk/status/1577428272056389633'}>
-              <img src='images/tweet.png'  width="350px" alt=''  />
+              <img src='images/web/tweet.png'  width="350px" alt=''  />
               </a>
+              <a href={'https://twitter.com/elonmusk/status/1391523807148527620'}>
+		<img src='images/web/tweet.jpg'  width="350px" alt=''  />
+		</a>
             <TokenBanners />
          <p className='bottom-space-sm' />
          <div className='row' style={{flexFlow:'column'}}>

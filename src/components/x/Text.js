@@ -1,6 +1,6 @@
 import React, { useMemo, useRef } from "react";
 // import { useControls } from "leva";
-import { useLoader, extend } from "@react-three/fiber";
+import { useLoader, extend, useFrame } from "@react-three/fiber";
 import { FontLoader } from "three/examples/jsm/loaders/FontLoader";
 import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry'
 
@@ -45,6 +45,7 @@ function MyText() {
     font,
     ...params2
   }), [font, params2])
+
 
   return (
     <>
